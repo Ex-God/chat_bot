@@ -1,0 +1,15 @@
+@keyframes Pulse {
+    50% {
+        -webkit-transform: scale(1,1);
+        transform: scale(1,1);
+        opacity: 1;
+        border: #2c9962 4px solid;
+
+    }
+    100% {
+        -webkit-transform: scale(2,2);
+        transform: scale(2,2);
+        opacity: 0;
+        border: #2c9962 2px solid;
+    }
+}

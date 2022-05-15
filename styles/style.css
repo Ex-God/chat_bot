@@ -1,0 +1,20 @@
+@import "./keyframes.css";
+@import "./bot.css";
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+input::-ms-clear {
+    display: none;
+}
